@@ -9,9 +9,7 @@ This project is all about replacing monotonous human conversations with Chatbots
 This project consists of functionalities wherein the students or rather the users of the Chatbot can fetch marks and the attendance from the university database in real-time. 
 It also has a validation of username & password in place for the privacy aspect. Apart from fetching marks and attendance, it can answer FAQs.
 
-To check out the code, please clone the repository into your workspace and
-import the project using flutter or android studio. *​Make use you use your local
-gradle to build the source code.*
+To check out the code, please clone the repository into your workspace.*​Make use you use virtual Enviorment to install RASA.*
 
 NOTE : It contains Note.txt which contains necessary command to run the project. 
 
@@ -26,9 +24,7 @@ NOTE : It contains Note.txt which contains necessary command to run the project.
 ![](assets/chatbot_3.png)
 
 
-Quick Installation
--------------------
-
+### Quick Installation (RASA)
 You can install Rasa Open Source using pip (requires Python 3.6, 3.7 or 3.8).
 
 ```bash

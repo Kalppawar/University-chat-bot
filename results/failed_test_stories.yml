@@ -1,0 +1,32 @@
+version: "2.0"
+stories:
+- story: happy path 2 (C:\Users\anike\AppData\Local\Temp\tmp4pd6mtb7\74b5a55a70a147d7af1c6822c7530892_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+  - intent: goodbye  # predicted: bye: bye-bye!
+  - action: utter_goodbye
+- story: sad path 2 (C:\Users\anike\AppData\Local\Temp\tmp4pd6mtb7\74b5a55a70a147d7af1c6822c7530892_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye  # predicted: utter_cheer_up2
+- story: sad path 3 (C:\Users\anike\AppData\Local\Temp\tmp4pd6mtb7\74b5a55a70a147d7af1c6822c7530892_test_stories.yml)
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye  # predicted: utter_cheer_up2
+- story: say goodbye (C:\Users\anike\AppData\Local\Temp\tmp4pd6mtb7\74b5a55a70a147d7af1c6822c7530892_test_stories.yml)
+  steps:
+  - intent: goodbye  # predicted: bye: bye-bye!
+  - action: utter_goodbye

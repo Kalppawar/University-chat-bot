@@ -1,0 +1,146 @@
+[
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6966314315795898
+    }
+  },
+  {
+    "text": "EasyPasS",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9708114266395569
+    }
+  },
+  {
+    "text": "I agree",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9997714161872864
+    }
+  },
+  {
+    "text": "I do",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9860939383506775
+    }
+  },
+  {
+    "text": "I get it",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.5626698136329651
+    }
+  },
+  {
+    "text": "I guess so",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5612450242042542
+    }
+  },
+  {
+    "text": "agreed",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9998455047607422
+    }
+  },
+  {
+    "text": "amazing!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.6345161199569702
+    }
+  },
+  {
+    "text": "i agree",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9998883008956909
+    }
+  },
+  {
+    "text": "i am!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.5012969374656677
+    }
+  },
+  {
+    "text": "i want that",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.8021175861358643
+    }
+  },
+  {
+    "text": "it is ok",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5075758099555969
+    }
+  },
+  {
+    "text": "perfect",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.598847508430481
+    }
+  },
+  {
+    "text": "that is cool",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.7771562337875366
+    }
+  },
+  {
+    "text": "yes i agree",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.5818467736244202
+    }
+  },
+  {
+    "text": "yes you can",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.34149473905563354
+    }
+  },
+  {
+    "text": "you got me, I accept, if you want me to",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.3456060290336609
+    }
+  },
+  {
+    "text": "really",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "react_positive",
+      "confidence": 0.9941505789756775
+    }
+  }
+]
