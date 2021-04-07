@@ -1,0 +1,8 @@
+2021-04-07 16:00:50 INFO     rasa.test  - CV evaluation (n=10)
+2021-04-07 16:00:50 INFO     rasa.test  - Intent evaluation results
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - train Accuracy: 0.972 (0.003)
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - train F1-score: 0.972 (0.003)
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - train Precision: 0.973 (0.003)
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - test Accuracy: 0.794 (0.042)
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - test F1-score: 0.785 (0.042)
+2021-04-07 16:00:50 INFO     rasa.nlu.test  - test Precision: 0.792 (0.040)
