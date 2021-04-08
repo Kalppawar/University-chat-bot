@@ -3,7 +3,8 @@ version: "2.0"
 nlu:
 - intent: mood_great
   examples: |
-    - perfect
+    - it was perfect
+    - i am perfect
     - great
     - amazing
     - feeling like a king

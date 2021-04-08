@@ -16,6 +16,10 @@ pipeline:
     max_ngram: 4
   - name: DIETClassifier
     epochs: 100
+    evaluate_on_number_of_examples: 100
+    evaluate_every_number_of_epochs: 5
+    tensorboard_log_directory: "./tensorboard"
+    tensorboard_log_level: "epoch"
     constrain_similarities: true
   - name: EntitySynonymMapper
   - name: ResponseSelector

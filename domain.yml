@@ -3,8 +3,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- surf_the_web
-- react_negative
+# - surf_the_web
 - greet
 - bye
 - affirm
@@ -12,11 +11,9 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- react_positive
 - canthelp
-- explain
-- next_step
 - thank
+- ask_faq
 - user_submitted_password
 - user_wants_to_check_attendance
 - user_submitted_usn

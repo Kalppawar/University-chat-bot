@@ -227,7 +227,7 @@ nlu:
     - cool beans
     - sounds good!
     - really
-- intent: react_positive
+- intent: affirm
   examples: |
     - Cool
     - cool
@@ -476,24 +476,7 @@ nlu:
     - stop it, i do not care!!!
     - none of them
     - I don't agree
-- intent: explain
-  examples: |
-    - can you elaborate
-    - could you explain why you need that
-    - could you tell me more
-    - explain it to me
-    - explain that
-    - i want more information
-    - i would like to know why you need that
-    - please elaborate
-    - please explain
-    - why do you need to know that
-    - why is that necessary
-    - give me more details
-    - why
-    - what do you mean
-    - what does that mean
-    - how come?
+
 - intent: greet
   examples: |
     - Bom dia
@@ -643,23 +626,7 @@ nlu:
     - yoo
     - ssup?
     - helleo
-- intent: next_step
-  examples: |
-    - continue to next step
-    - go to the next step
-    - i have to go to the next step
-    - i want next step
-    - i want to go to the next step
-    - next please
-    - next step
-    - next step now
-    - next step please
-    - next step pls
-    - ok continue please
-    - ok, next step
-    - please go to the next step
-    - take me to the next step
-    - what is the next step ?
+
 - intent: mood_unhappy
   examples: |
     - I am feeling bad
@@ -673,7 +640,6 @@ nlu:
     - bad
     - bad boy
     - crappy joke
-    - documentation of rasa is very bad
     - i am angry over you
     - i am feel sad
     - i am sad
@@ -701,8 +667,6 @@ nlu:
     - you're rather dull
     - i am so worry
     - i will leave
-    - Although I understand your still in development, I feel a little bit disappointed.
-    - Surely you're not so smart lik i thought
     - iam not feeling good
     - not good
     - Thats so rude

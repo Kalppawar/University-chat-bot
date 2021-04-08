@@ -9,6 +9,7 @@ nlu:
       - Highest package till date
       - Highest CTC
       - Highest salary
+      - about packages 
 
   - intent: question_about_clg_internships
     examples: |
@@ -19,26 +20,45 @@ nlu:
       - What companies come for ECE?
       - how about intern
       - intern details
+      - about internship
       - show intern detail
 
   - intent: user_wants_courses_available
     examples: |
       - what are the courses available?
       - courses?
-      - CSE subjects?
-      - ECE subjects?
+      - about courses
+      - CSE subjects
+      - would like to know about Courses
+      - course info
+      - number of courses
+      - courses which are there
+      - ECE subjects
+      - subjects available
+      - courses available
 
 
   - intent: user_wants_utter_clg_details
     examples: |
       - What is college address
+      - questions about college
       - what is college email id
+      - know about college
+      - details about college
+      - where is college
+      - location of college
+      - address of college
+      - college address
+      - college details
 
 
   - intent: ask_faq
     examples: |
-      - i want to ask some FAQ
+      - i want to ask some FAQs
       - faq
+      - some faqs
+      - few questions
+      - want to know more 
       - i have some questions
       - i have some faq
 
@@ -47,4 +67,13 @@ nlu:
       - How many students got placed this year
       - Placement percentage of ECE
       - Placement percentage of CSE
+      - what about placements
+      - placements details 
+      - placement info
+      - placement so far
+      - how much is placement
+      - placement scenario
+      - placement percentages
+      - I would like to know about Placements
+      - know about placements
     
