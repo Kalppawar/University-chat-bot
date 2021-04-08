@@ -47,6 +47,21 @@ stories:
   - intent: canthelp
   - action: utter_kidding_bot
 
+- story: sad path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_cheer_up2
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_tell_me_why_sad
+  - intent: deny
+  - action: utter_kidding_bot
+
 ################################
 # - story: interactive_story_1
 #   steps:
