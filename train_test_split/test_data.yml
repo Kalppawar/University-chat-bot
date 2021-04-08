@@ -2,214 +2,208 @@ version: "2.0"
 nlu:
 - intent: bot_challenge
   examples: |
-    - am I talking to a human?
+    - are you a bot?
 - intent: user_wants_to_check_upcoming_holidays
   examples: |
     - I want to know about holidays
 - intent: question_about_clgpackage
   examples: |
-    - Highest salary
-    - Highest package in ECE?
+    - Highest CTC
+    - Highest package in CSE?
 - intent: ask_faq
   examples: |
-    - few questions
+    - faq
 - intent: user_wants_to_check_attendance
   examples: |
-    - I want to know how many classes have I missed
-    - I would like to know how many classes have I attended
+    - I want to know how many classes I have attended
+    - Can I know about my attendance please
 - intent: user_wants_to_check_marks
   examples: |
-    - I would like to know how many marks have I missed
-    - Please display my marks details
+    - I would like to know my marks status
+    - I want to know about my marks
 - intent: user_wants_to_check_upcoming_exams
   examples: |
-    - about exams.
+    - when are my exams
 - intent: question_about_clg_internships
   examples: |
-    - How are the college internships?
     - Does college provide inrernships?
+    - how about intern
 - intent: user_wants_utter_clg_details
   examples: |
-    - questions about college
-    - what is college email id
+    - What is college address
+    - college address
 - intent: user_wants_courses_available
   examples: |
+    - courses which are there
     - number of courses
-    - subjects available
 - intent: user_wants_placement_percentage
   examples: |
-    - placement info
-    - placement scenario
-    - How many students got placed this year
+    - I would like to know about Placements
+    - what about placements
+    - Placement percentage of CSE
 - intent: user_submitted_usn
   examples: |
+    - bt18cse054
+    - bt18cse050
     - bt18cse043
-    - bt18cse052
-    - bt18cse047
 - intent: user_submitted_password
   examples: |
-    - c0tVpk8S8x?3
-    - BjCv30%US9s~
+    - KmSD|H?8YJ7g
+    - >6wR/=F%Z6Gj
 - intent: mood_great
   examples: |
     - I am going to save the world
+    - amazing
     - I am amazing
-    - so perfect
 - intent: canthelp
   examples: |
-    - i guess you can't help me then
-    - do you get anything?
-    - nothing else?
-    - not helpful
-    - quit
-    - you cant help me
+    - not helping
+    - you can't help me with what i need
+    - stop this conversation
+    - ok i guess you can't help me
+    - ok, but that doesnt help me
 - intent: thank
   examples: |
-    - thank you anyways
-    - thanks you
     - ok thanks sara
+    - cool thank you
+    - thanks for forum link, I'll check it out
+    - thx
+    - Thanks
+    - cheers
     - Thanks bot
-    - ok thanks!
-    - amazing, thanks
-    - Thank you so much
-    - cool thanks
+    - Thank you Sara
 - intent: bye
   examples: |
-    - good bye rasa bot!
-    - good afternoon
-    - see you around
-    - tlak to you later
+    - see u later
+    - ok.bye
+    - cee you later
     - farewell
-    - byr
-    - bye .
-    - bye for now
-    - bye
+    - good by
+    - bye :P
+    - see you around
+    - bye was nice talking to you
     - see ya
+    - ciao
 - intent: mood_unhappy
   examples: |
-    - extremly sad
-    - bad
-    - This is bad
-    - iam not feeling good
-    - you make me sad
-    - You are rude
-    - unhappy
-    - i am feel sad
+    - you're rather dull
+    - i'm sad
+    - not very good
+    - You are mad
+    - i am sad
+    - I am disappointed
+    - i sad
+    - sad
     - crappy joke
-    - bots are bad
+    - I am feeling bad
+    - I am sad
 - intent: deny
   examples: |
-    - not really
-    - na
     - definitely not
-    - Nevermind
-    - nope
-    - i guess it means - no
-    - NO
-    - no bots at all
-    - thanks but no thanks
-    - no, my frst time
-    - no
-    - no, thankyou
-    - i dont want to accept :P lol
+    - no go
+    - no i dont want to accept :P lol
+    - nop
+    - No.
+    - i'm not sure
     - nah not for me
-    - I don't want to
-    - absolutely not
-    - no i dont want to
-    - i don't want to
-    - nah, i'm good
-    - Not really
+    - i don't want either of those
+    - Nah
+    - no, i hate it
+    - nah
+    - no, thank you
+    - no thank you
+    - no way
+    - it sucks
+    - no!!!!
+    - NEIN
+    - noooooooooo
+    - deny
 - intent: greet
   examples: |
-    - Bom dia
-    - hey bot
-    - hieee
-    - good moring
-    - hi friends
-    - hello sara
-    - ssup?
-    - hello
-    - konichiwa
-    - hello world
-    - hi !
-    - hello it is me again
-    - Hey Sara
-    - whats up
-    - helo
-    - hey there..
-    - heeey
-    - halo
+    - helloooo
     - hello hi
-    - yoo
-    - hello everybody
-    - Hey bot
-    - hi hi
-    - Hola
-    - Hi bot
-    - HEY
-    - Whats up
-    - Hi, bot
+    - Hieeeeeeeeeeeee
+    - Hi sara
+    - hellooo
+    - whats popping
+    - hi can you speak ?
+    - hi sara
+    - hi
+    - whats up
+    - hey bot!
+    - ayyyy whaddup
+    - hello friend
     - hi!
+    - hiii
+    - hello robot
+    - hello Sara
+    - greet
+    - Bonjour
+    - Hi,
+    - hell9o
+    - hii
+    - hellio
+    - hello world
+    - Hi Sara
+    - Hello Bot
+    - salut
+    - Well hello there ;)
 - intent: affirm
   examples: |
-    - its okay
-    - you good
-    - ok...
     - go for it
+    - i am happy
+    - ja thats great
+    - ok fine
+    - ok i accept
+    - Great
     - :)
-    - yaps
-    - like u
-    - ya thats cool
-    - ye splease
-    - sure
-    - yes pleae
-    - that is cool
-    - oui
-    - yes'
-    - yes please!
-    - You're cute.
-    - :D
-    - yesyestyes
-    - wow
-    - that ok
-    - I get it
-    - I love you
-    - you are realy intelligent
-    - yes baby
-    - really
-    - yes sirfr
-    - Yes
-    - you are cool man
-    - I mean to say that I liked the explanation
-    - ok..
-    - WOW
-    - okay cool
-    - yes i have!
-    - ya go for it
-    - ok sara
-    - Great information
-    - uh-huh
-    - Yes.
-    - sure thing
-    - More a less
-    - ofcoure i do
-    - hAHAHA
-    - yes I do
-    - Wow
-    - thats funny
-    - Yeah
+    - yesss
+    - please
+    - perfect
+    - okay..
+    - Cool
+    - yess
+    - Sure
+    - yes you can
     - Yes please!
-    - yep that's nice
-    - i am very happy with your response
-    - yessoo
-    - awesome!
-    - You are great
-    - yep
-    - hell yes
+    - Accept
+    - oki doki
+    - oh cool
+    - you good
+    - yesyesyes
     - Ok let's start
-    - amayzing
-    - hm, i'd like that
+    - ok great
+    - yop
+    - done
+    - Lol thats funny
+    - I'm using it
+    - great
+    - yes i accept
+    - I love you
+    - yes baby
+    - you are awesome
+    - yeah'=
+    - I accept
+    - like u
+    - cool
+    - Yes, I accept
+    - i am happy today
+    - yes pls
+    - cool!
+    - yes i agree
+    - today was a nice day
+    - hèhè
+    - LOL
+    - hAHAHA
+    - Yep!
     - hahah
+    - HAHA
+    - ok
+    - cool :)
+    - yes cool
+    - yes of course
+    - YUP
+    - yesyestyes
 - synonym: english
   examples: |
     - English

@@ -1,0 +1,162 @@
+[
+  {
+    "text": "great",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5897886753082275
+    }
+  },
+  {
+    "text": "I am going to save the world",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.998571515083313
+    }
+  },
+  {
+    "text": "super stoked",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.8340123295783997
+    }
+  },
+  {
+    "text": "amazing!",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.7544967532157898
+    }
+  },
+  {
+    "text": "jo",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "not bad",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9174084067344666
+    }
+  },
+  {
+    "text": "ok, I understood",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.872176468372345
+    }
+  },
+  {
+    "text": "top",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.8668816685676575
+    }
+  },
+  {
+    "text": "yeah, why not",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9999656081199646
+    }
+  },
+  {
+    "text": "h\u00e8h\u00e8",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Exit",
+    "intent": "bye",
+    "intent_prediction": {
+      "name": "canthelp",
+      "confidence": 0.5712835788726807
+    }
+  },
+  {
+    "text": "deny",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.29281458258628845
+    }
+  },
+  {
+    "text": "it sux",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.6155377626419067
+    }
+  },
+  {
+    "text": "howdy",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.5461828112602234
+    }
+  },
+  {
+    "text": "yo",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "i dont like bots",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "thx",
+    "intent": "thank",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.999754011631012
+    }
+  },
+  {
+    "text": "would like to know about Courses",
+    "intent": "user_wants_courses_available",
+    "intent_prediction": {
+      "name": "user_wants_to_check_attendance",
+      "confidence": 0.6388109922409058
+    }
+  },
+  {
+    "text": "iXeHF|x|8ZW3",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": ">6wR/=F%Z6Gj",
+    "intent": "user_submitted_password",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 1.0
+    }
+  }
+]

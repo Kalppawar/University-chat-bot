@@ -1,0 +1,183 @@
+{
+  "user_wants_placement_percentage": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 0.9591836734693877,
+    "recall": 0.9791666666666666,
+    "f1-score": 0.9690721649484536,
+    "support": 96,
+    "confused_with": {
+      "affirm": 1,
+      "mood_unhappy": 1
+    }
+  },
+  "user_wants_courses_available": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "user_wants_to_check_attendance": 1
+    }
+  },
+  "greet": {
+    "precision": 0.9859154929577465,
+    "recall": 0.9859154929577465,
+    "f1-score": 0.9859154929577465,
+    "support": 142,
+    "confused_with": {
+      "affirm": 2
+    }
+  },
+  "affirm": {
+    "precision": 0.974169741697417,
+    "recall": 0.974169741697417,
+    "f1-score": 0.974169741697417,
+    "support": 271,
+    "confused_with": {
+      "deny": 2,
+      "greet": 2
+    }
+  },
+  "user_wants_utter_clg_details": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "thank": {
+    "precision": 1.0,
+    "recall": 0.9743589743589743,
+    "f1-score": 0.9870129870129869,
+    "support": 39,
+    "confused_with": {
+      "affirm": 1
+    }
+  },
+  "user_wants_to_check_upcoming_exams": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "user_wants_to_check_attendance": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "ask_faq": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "user_submitted_usn": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8,
+    "f1-score": 0.8571428571428571,
+    "support": 15,
+    "confused_with": {
+      "affirm": 1,
+      "deny": 1
+    }
+  },
+  "question_about_clg_internships": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "bot_challenge": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "user_wants_to_check_marks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "user_wants_to_check_upcoming_holidays": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 5,
+    "confused_with": {}
+  },
+  "bye": {
+    "precision": 1.0,
+    "recall": 0.9795918367346939,
+    "f1-score": 0.9896907216494846,
+    "support": 49,
+    "confused_with": {
+      "canthelp": 1
+    }
+  },
+  "canthelp": {
+    "precision": 0.9259259259259259,
+    "recall": 1.0,
+    "f1-score": 0.9615384615384615,
+    "support": 25,
+    "confused_with": {}
+  },
+  "question_about_clgpackage": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
+  },
+  "user_submitted_password": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 14,
+    "confused_with": {
+      "affirm": 2
+    }
+  },
+  "mood_unhappy": {
+    "precision": 0.9454545454545454,
+    "recall": 0.9811320754716981,
+    "f1-score": 0.9629629629629629,
+    "support": 53,
+    "confused_with": {
+      "deny": 1
+    }
+  },
+  "accuracy": 0.9753086419753086,
+  "macro avg": {
+    "precision": 0.9816060144086642,
+    "recall": 0.9733604073390936,
+    "f1-score": 0.976682461258137,
+    "support": 810
+  },
+  "weighted avg": {
+    "precision": 0.9756605253783384,
+    "recall": 0.9753086419753086,
+    "f1-score": 0.9751574127293399,
+    "support": 810
+  }
+}
