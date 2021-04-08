@@ -9,7 +9,9 @@ stories:
     - action: utter_giving_list_in_a_bit
     - action: utter_did_that_help
     - intent: affirm
-    - action: utter_thank_goodbye
+    - action: utter_anything_else
+    - intent: bye
+    - action: utter_goodbye
 
 - story: FAQ clg internship
   steps:
@@ -19,7 +21,9 @@ stories:
   -  action: utter_internship_details
   -  action: utter_did_that_help
   -  intent: affirm
-  -  action: utter_thank_goodbye
+  - action: utter_anything_else
+  - intent: bye
+  - action: utter_goodbye
 
 
 - story: FAQ Clg Courses
@@ -30,7 +34,9 @@ stories:
   -  action: utter_list_of_courses
   -  action: utter_did_that_help
   -  intent: affirm
-  -  action: utter_thank_goodbye
+  -  action: utter_anything_else
+  -  intent: bye
+  -  action: utter_goodbye
  
 
 - story: Placement PERCENTAGE
@@ -38,7 +44,9 @@ stories:
     - intent: user_wants_placement_percentage
     - action: utter_overall_placement_percentage
     - intent: affirm
-    - action: utter_thank_goodbye
+    - action: utter_anything_else
+    - intent: bye
+    - action: utter_goodbye
 
 
 
@@ -47,4 +55,6 @@ stories:
     - intent: user_wants_utter_clg_details
     - action: utter_clg_details
     - intent: affirm
-    - action: utter_thank_goodbye
+    - action: utter_anything_else
+    - intent: bye
+    - action: utter_goodbye

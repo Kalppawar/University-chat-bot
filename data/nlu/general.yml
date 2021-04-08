@@ -294,6 +294,7 @@ nlu:
 - intent: bye
   examples: |
     - Bye
+    - bye
     - Bye bye
     - adios
     - adios?
@@ -374,6 +375,8 @@ nlu:
     - you cant help me
     - quit
     - that does not help
+    - not helping 
+    - not helpful
 - intent: deny
   examples: |
     - I don't want to

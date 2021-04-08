@@ -7,4 +7,6 @@ stories:
   - action: utter_greet
   - intent: user_wants_to_check_upcoming_holidays
   - action: display_upcoming_holidays
+  - action: utter_anything_else
+  - intent: bye
   - action: utter_goodbye

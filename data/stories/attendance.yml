@@ -11,6 +11,8 @@ stories:
   - action: action_ask_password
   - intent: user_submitted_password
   - action: validate_credentials_and_display_attendance
+  - action: utter_anything_else
+  - intent: bye
   - action: utter_goodbye
 
 - story: User wants to check marks
@@ -23,4 +25,6 @@ stories:
   - action: action_ask_password
   - intent: user_submitted_password
   - action: validate_credentials_and_display_marks
+  - action: utter_anything_else
+  - intent: bye
   - action: utter_goodbye

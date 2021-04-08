@@ -7,4 +7,6 @@ stories:
   - action: utter_greet
   - intent: user_wants_to_check_upcoming_exams
   - action: display_upcoming_exams
+  - action: utter_anything_else
+  - intent: bye
   - action: utter_goodbye

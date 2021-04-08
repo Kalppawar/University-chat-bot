@@ -62,13 +62,15 @@ responses:
   utter_happy:
   - text: Great, carry on!
   utter_goodbye:
-  - text: anything else!
+  - text: "ok , see you next time"
   utter_tell_me_why_sad:
   - text: why are u sad, tell me about it
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_welcome:
   - text: your are always welcome!
+  utter_anything_else:
+  - text: "anything else."
   utter_internship_details:
   - text: |
       Companies visiting campus for internship :
