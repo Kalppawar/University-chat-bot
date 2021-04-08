@@ -1,11 +1,11 @@
 [
   {
-    "text": "hi im Amanda Anderson",
+    "text": "hi i'm Sandra Hernandez",
     "entities": [
       {
-        "start": 6,
-        "end": 21,
-        "value": "Amanda Anderson",
+        "start": 7,
+        "end": 23,
+        "value": "Sandra Hernandez",
         "entity": "name"
       }
     ],
@@ -24,12 +24,12 @@
     "predicted_entities": []
   },
   {
-    "text": "hi i'm Sandra Hernandez",
+    "text": "hi im Amanda Anderson",
     "entities": [
       {
-        "start": 7,
-        "end": 23,
-        "value": "Sandra Hernandez",
+        "start": 6,
+        "end": 21,
+        "value": "Amanda Anderson",
         "entity": "name"
       }
     ],
